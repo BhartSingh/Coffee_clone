@@ -118,7 +118,7 @@ section {
 }
 
 #menu-btn {
-    display: none;
+    display: inline;
 }
 
 .header .search-form {
@@ -217,7 +217,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../images/home-img.jpeg) no-repeat;
+    background: url(../images/1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -660,4 +660,12 @@ section {
         font-size: 50%;
     }
 
+    .about .row img {
+        width: 100%;
+    }
+
+    .header .search-form {
+        width: 30%;
+        margin-right: 14rem;
+    }
 }
