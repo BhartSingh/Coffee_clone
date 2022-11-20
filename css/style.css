@@ -88,6 +88,11 @@ section {
     left: 0;
     right: 0;
     z-index: 1000;
+
+}
+
+.header .navbar {
+    margin-right: 20%;
 }
 
 .header .logo img {
@@ -98,6 +103,7 @@ section {
     margin: 0 1rem;
     font-size: 1.6rem;
     color: #fff;
+    /* margin-left: 10%; */
 }
 
 .header .navbar a:hover {
@@ -132,6 +138,7 @@ section {
     align-items: center;
     /* transform: scaleY(0); */
     transform-origin: top;
+    margin-right: 2%;
 }
 
 /* .header .search-form.active { 
@@ -599,6 +606,8 @@ section {
     .header {
         padding: 1.5rem 2rem;
     }
+
+
 
     section {
         padding: 2rem;
